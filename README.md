@@ -84,7 +84,7 @@ The above setup will ensure that the drive binary after compilation can be invok
 To install from the latest source, run:
 
 ```shell
-$ go get -u github.com/odeke-em/drive/cmd/drive
+$ go get -u github.com/LambdaSnippet/drive/cmd/drive
 ```
 
 Otherwise:
@@ -92,13 +92,13 @@ Otherwise:
 * In order to address [issue #138](https://github.com/odeke-em/drive/issues/138), where debug information should be bundled with the binary, you'll need to run:
 
 ```shell
-$ go get github.com/odeke-em/drive/drive-gen && drive-gen
+$ go get github.com/LambdaSnippet/drive/drive-gen && drive-gen
 ```
 
 In case you need a specific binary e.g for Debian folks [issue #271](https://github.com/odeke-em/drive/issues/271) and [issue 277](https://github.com/odeke-em/drive/issues/277)
 
 ```shell
-$ go get -u github.com/odeke-em/drive/drive-google
+$ go get -u github.com/LambdaSnippet/drive/drive-google
 ```
 
 That should produce a binary `drive-google`
@@ -108,7 +108,7 @@ OR
 To bundle debug information with the binary, you can run:
 
 ```shell
-$ go get -u github.com/odeke-em/drive/drive-gen && drive-gen drive-google
+$ go get -u github.com/LambdaSnippet/drive/drive-gen && drive-gen drive-google
 ```
 
 
@@ -116,12 +116,12 @@ $ go get -u github.com/odeke-em/drive/drive-gen && drive-gen drive-google
 
 + Using godep
 ```
-$ cd $GOPATH/src/github.com/odeke-em/drive/drive-gen && godep save
+$ cd $GOPATH/src/github.com/LambdaSnippet/drive/drive-gen && godep save
 ```
 
 + Unravelling/Restoring dependencies
 ```
-$ cd $GOPATH/src/github.com/odeke-em/drive/drive-gen && godep restore
+$ cd $GOPATH/src/github.com/LambdaSnippet/drive/drive-gen && godep restore
 ```
 
 Please see file `drive-gen/README.md` for more information.
@@ -129,7 +129,7 @@ Please see file `drive-gen/README.md` for more information.
 
 ### Platform Packages
 
-For curated packages on your favorite platform, please see file [Platform Packages.md](https://github.com/odeke-em/drive/blob/master/platform_packages.md).
+For curated packages on your favorite platform, please see file [Platform Packages.md](https://github.com/LambdaSnippet/drive/blob/master/platform_packages.md).
 
 Is your platform missing a package? Feel free to prepare / contribute an installation package and then submit a PR to add it in.
 
